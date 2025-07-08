@@ -1,0 +1,14 @@
+version: "3.9"
+
+services:
+  db:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    user: root
+    ports:
+      - 1433:1433
+    env_file:
+      - .env
+    volumes:
+      - ./Data:/db_files
