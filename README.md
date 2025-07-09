@@ -1,5 +1,8 @@
 # Dockerized SQL-Server 2019
-Mounts .mdf databases in a dockerized sql-server instance.
+
+> Mounts .mdf databases in a dockerized sql-server instance.
+
+> Project based on https://github.com/toledompm/dockerized-sql-server/
 
 ## Run it
 ### 1 - Place .mdf and .ldf files in Data directory.
