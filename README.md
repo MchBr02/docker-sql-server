@@ -44,5 +44,5 @@ The core of this repository was taken from the article. Changes consists in gene
 
 # ShutDown and Remove
 ```
-docker-compose down --volumes --remove-orphans
+docker compose down --volumes --remove-orphans
 ```
